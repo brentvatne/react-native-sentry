@@ -2,7 +2,7 @@
   "name": "react-native-sentry",
   "homepage": "https://github.com/getsentry/react-native-sentry",
   "version": "0.7.0",
-  "description": "Official Sentry client for react-native (currently iOS only)",
+  "description": "Official Sentry client for react-native",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,10 +15,7 @@
   ],
   "author": "Sentry",
   "license": "MIT",
-  "peerDependencies": {
-    "react-native": ">=0.38.0"
-  },
   "dependencies": {
-    "raven-js": "3.12.1"
+    "raven-js": " 3.15.0"
   }
 }
